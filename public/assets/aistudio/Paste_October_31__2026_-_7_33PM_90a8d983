@@ -1,0 +1,1268 @@
+# PROJECT NAME: RIZOO JOB
+## Complete Professional International Job Vacancy Application
+
+Build a complete, professional, modern, production-ready job vacancy mobile application named **RIZOO JOB** for Android, with a scalable backend and a secure web-based Admin Panel.
+
+The application will publish job vacancies for India, Gulf countries, and Europe. The primary purpose is to help job seekers discover overseas employment opportunities, view vacancy details with photos, and apply directly through the app.
+
+The application must have a premium user interface, smooth navigation, fast performance, real database integration, secure authentication, working application forms, image uploads, push notifications, and a fully functional administrator dashboard.
+
+Do not build only a static UI or demo. Implement real functionality wherever supported by the chosen platform.
+
+# 1. APP BRANDING AND IDENTITY
+
+App Name: RIZOO JOB
+
+App Category: International Job Search and Recruitment
+
+Brand Owner: Rizoo Travel Agency
+
+Brand Location: Dharampur Chauraha Se Pachrukhiya Bazar, Maharajganj, Uttar Pradesh, India
+
+Brand Contact: 7007303250
+
+Primary Theme:
+- Premium royal blue
+- White
+- Dark navy
+- Subtle gold accents
+- Modern gradient backgrounds
+- Professional typography
+- Rounded cards with subtle shadows
+- Clean and readable layouts
+
+App Logo:
+Create a professional RIZOO JOB logo using a combination of a briefcase, globe, and airplane symbol.
+
+Display the logo on:
+- Splash screen
+- Login screen
+- Home screen
+- App header
+- Admin dashboard
+- Vacancy posters
+- Notifications
+
+Create a professional app icon suitable for publishing on the Google Play Store.
+
+# 2. SPLASH SCREEN AND ONBOARDING
+
+Create a premium animated splash screen featuring:
+- RIZOO JOB logo
+- App name
+- Tagline: "Your Career, Your Future"
+- Subtitle: "Find Your Dream Job Worldwide"
+- Smooth logo animation
+- Professional loading animation
+
+After the splash screen, show three onboarding screens.
+
+Screen 1: Explore Jobs Worldwide
+Show international job opportunities with country flags.
+
+Screen 2: Find Verified Opportunities
+Explain that vacancy details and recruitment information are published for job seekers.
+
+Screen 3: Apply for Your Dream Job
+Explain how users can view vacancies and submit applications.
+
+Buttons:
+- Skip
+- Next
+- Get Started
+
+Show onboarding only on the first launch unless the user chooses to view it again.
+
+# 3. USER REGISTRATION AND LOGIN
+
+Implement a complete user authentication system.
+
+Login options:
+- Mobile number
+- OTP verification, if supported by the configured authentication provider
+- Email and password
+- Google Sign-In, if supported and properly configured
+
+Registration fields:
+- Full name
+- Mobile number
+- Email address
+- Password, when email/password authentication is used
+- Preferred job category
+- Preferred country
+- Preferred salary range
+
+Additional functionality:
+- Forgot password
+- Logout
+- Session management
+- Account deletion
+- Terms and conditions acceptance
+- Privacy policy acceptance
+- Login error messages
+- Duplicate account prevention
+
+Do not store passwords in plain text.
+
+Allow users to browse publicly available vacancies without creating an account. Require login when necessary for submitting applications or accessing personal application history.
+
+# 4. HOME SCREEN — PROFESSIONAL DESIGN
+
+Build a modern, mobile-first home screen.
+
+Header:
+- RIZOO JOB logo
+- Greeting: "Find Your Next Opportunity"
+- Notification bell
+- User profile icon
+
+Search section:
+- Search jobs by title
+- Search by company
+- Search by country
+- Search by category
+- Search by keyword
+
+Quick filters:
+- Gulf Jobs
+- Europe Jobs
+- Saudi Arabia
+- UAE
+- Kuwait
+- Qatar
+- Oman
+- Bahrain
+- Other Countries
+
+Additional sections:
+1. Latest Vacancies
+2. Featured Jobs
+3. Urgent Requirements
+4. Jobs by Country
+5. Jobs by Category
+6. Jobs With Food and Accommodation
+7. Jobs With Overtime
+8. Recently Added Jobs
+9. Recommended Jobs
+10. Application Tips
+
+Every section must load real data from the connected database.
+
+Display vacancy cards in a modern, professional layout with attractive photographs.
+
+# 5. VACANCY CARDS WITH PHOTOS
+
+This is one of the most important features.
+
+Every job vacancy must support a photo or recruitment poster.
+
+Each vacancy card must display:
+
+- Main vacancy photo or poster
+- Job title
+- Country flag
+- Country name
+- Company or employer name
+- Number of vacancies
+- Salary and currency
+- Overtime details, when applicable
+- Food allowance or food facility
+- Accommodation information
+- Duty hours
+- Job category
+- Job type
+- Date posted
+- Application deadline
+- Verified status, only when verification has actually occurred
+- Featured or urgent label, when assigned by the admin
+
+Example vacancy card:
+
+COUNTRY: SAUDI ARABIA
+
+JOB TITLE: Warehouse Labour
+
+VACANCIES: 100
+
+SALARY: 1300 SAR + OVERTIME
+
+DUTY: 8 HOURS
+
+FOOD: As specified by employer
+
+ACCOMMODATION: As specified by employer
+
+SELECTION: Zoom Interview
+
+BUTTONS:
+- View Details
+- Apply Now
+- Save Job
+- Share Job
+
+Use a professional image card layout with a large vacancy image at the top and important job details underneath.
+
+Support both landscape and portrait vacancy posters.
+
+When an administrator uploads a recruitment poster, display it in the vacancy card and the full vacancy details page.
+
+Allow the admin to upload multiple images for a single vacancy.
+
+Images must resize automatically, maintain aspect ratio, and load efficiently on mobile devices.
+
+Do not generate fake employer photographs or falsely label an employer as verified.
+
+If a vacancy has no uploaded image, show a professional default recruitment image.
+
+# 6. FULL JOB DETAILS SCREEN
+
+When a user clicks a vacancy, open a dedicated job details page.
+
+Display the following information:
+
+- Full job poster
+- Job title
+- Country and city
+- Employer name
+- Employer verification status, if verified
+- Recruitment agency information
+- Number of vacancies
+- Job category
+- Salary and currency
+- Overtime policy
+- Duty hours
+- Weekly holidays
+- Food allowance or food facility
+- Accommodation
+- Transportation
+- Medical insurance
+- Employment contract duration
+- Age requirements
+- Education requirements
+- Experience requirements
+- Language requirements
+- Passport requirements
+- Visa requirements
+- Required documents
+- Selection method
+- Interview date
+- Application deadline
+- Job description
+- Terms and conditions
+- Contact information
+
+Only display information entered or confirmed by the administrator. Do not invent missing salary, benefits, visa details, or employer credentials.
+
+Bottom action buttons:
+- Apply Now
+- Save Job
+- Share Vacancy
+- Contact Recruitment Office
+
+Make the Apply Now button prominent.
+
+If a vacancy has expired or been closed by the administrator, disable new applications and display the correct status.
+
+# 7. ADVANCED JOB SEARCH AND FILTERS
+
+Create a complete search and filtering system.
+
+Filters:
+- Country
+- City
+- Job category
+- Salary range
+- Currency
+- Experience level
+- Education level
+- Gender requirements, only when legally appropriate and explicitly required
+- Age range, only when legally appropriate and explicitly required
+- Job type
+- Duty hours
+- Overtime availability
+- Food facility
+- Accommodation
+- Transportation
+- Medical insurance
+- Selection method
+- Date posted
+- Application deadline
+- Featured jobs
+- Verified recruitment opportunities
+
+Sorting options:
+- Latest jobs
+- Salary: Low to High
+- Salary: High to Low
+- Most relevant
+- Application deadline
+
+Add:
+- Clear Filters
+- Search History
+- Recent Searches
+- No Results Found screen
+
+Search must operate on actual database records.
+
+# 8. COUNTRY-WISE JOBS
+
+Create dedicated country pages for:
+
+GULF COUNTRIES:
+- Saudi Arabia
+- United Arab Emirates
+- Kuwait
+- Qatar
+- Oman
+- Bahrain
+
+EUROPE:
+- Romania
+- Croatia
+- Poland
+- Germany
+- Italy
+- Portugal
+- Other European countries
+
+OTHER DESTINATIONS:
+- Malaysia
+- Singapore
+- Other countries added by the administrator
+
+For each country page, show:
+- Country flag
+- Country name
+- Available vacancies
+- Latest jobs
+- Popular categories
+- Search filters
+
+The administrator must be able to add, edit, activate, or deactivate countries without changing the application code.
+
+Do not display invented job listings. If no vacancies exist for a country, show an appropriate empty state.
+
+# 9. JOB CATEGORIES
+
+Create the following job categories:
+
+- Driver
+- Heavy Vehicle Driver
+- Light Vehicle Driver
+- Bike Rider
+- Warehouse Labour
+- Warehouse Assistant
+- Cleaner
+- Helper
+- Construction Worker
+- Electrician
+- Plumber
+- Welder
+- Technician
+- Mechanic
+- Hotel Staff
+- Restaurant Staff
+- Cook
+- Waiter
+- Housekeeping
+- Security Guard
+- Factory Worker
+- Salesman
+- Merchandiser
+- Delivery Rider
+- Office Assistant
+- Accountant
+- Engineer
+- Healthcare
+- IT Jobs
+- Skilled Jobs
+- Unskilled Jobs
+- Other Jobs
+
+Allow the admin to create additional categories.
+
+# 10. APPLY FOR JOBS
+
+Build a complete online application system.
+
+When the user clicks Apply Now, open an application form.
+
+Application form fields:
+- Full name
+- Mobile number
+- Email address
+- Date of birth
+- Current city
+- State
+- Nationality
+- Passport availability
+- Passport expiry date, if relevant
+- Education
+- Work experience
+- Skills
+- Preferred job
+- Preferred country
+- Resume upload
+- Profile photograph upload
+- Additional information
+
+Passport number and passport document uploads must be optional unless a specific legitimate recruitment process requires them.
+
+Explain why sensitive documents are requested, protect them with restricted access, and never expose them publicly.
+
+Provide a consent checkbox for submitting personal information to the recruitment administrator.
+
+Buttons:
+- Save Draft
+- Submit Application
+- Cancel
+
+After submission:
+- Generate a unique application reference number.
+- Save the application in the database.
+- Display a success screen.
+- Send an in-app confirmation.
+- Send email or push confirmation if configured.
+- Show the application in My Applications.
+
+Prevent duplicate submissions for the same user and vacancy unless resubmission is explicitly permitted.
+
+# 11. MY APPLICATIONS
+
+Create a dedicated My Applications screen.
+
+Application statuses:
+- Submitted
+- Under Review
+- Shortlisted
+- Interview Scheduled
+- Selected
+- Rejected
+- On Hold
+- Withdrawn
+
+For each application, show:
+- Application reference number
+- Job title
+- Country
+- Application date
+- Current status
+- Last updated date
+- Interview details, when applicable
+- Administrator remarks, where appropriate
+
+Allow users to open their application details.
+
+Allow withdrawal only while the application is in a permitted state.
+
+Send notifications whenever the application status changes.
+
+Never display private remarks or internal administrator notes to the applicant.
+
+# 12. SAVE JOBS AND SHARE VACANCIES
+
+Implement a working bookmark system.
+
+Users can:
+- Save vacancies
+- Remove saved vacancies
+- View saved jobs
+- Share a vacancy
+- Copy a vacancy link
+- Share a vacancy poster through supported mobile sharing options
+
+Create a unique shareable page or link for each vacancy.
+
+If supported, generate a shareable vacancy image containing:
+- RIZOO JOB branding
+- Job title
+- Country
+- Salary
+- Main vacancy photograph
+- Contact information
+
+Do not place sensitive applicant information on shared images.
+
+# 13. PUSH NOTIFICATIONS
+
+Integrate push notifications using a supported notification provider.
+
+Notification types:
+- New vacancy published
+- Urgent recruitment
+- New jobs in preferred countries
+- New jobs in preferred categories
+- Application submitted
+- Application status changed
+- Interview scheduled
+- Application deadline reminder
+- Important recruitment announcement
+
+Notification settings:
+- Enable or disable notifications
+- Select preferred countries
+- Select preferred categories
+- Choose vacancy alert preferences
+
+Admin notification tools:
+- Send announcement
+- Notify users about a specific vacancy
+- Notify users in selected countries
+- Notify users interested in selected categories
+
+Include a notification history screen.
+
+Notifications must use actual vacancy data. Do not send duplicate or misleading alerts.
+
+# 14. PROFILE AND USER SETTINGS
+
+Create a complete profile section.
+
+Profile fields:
+- Profile photo
+- Full name
+- Mobile number
+- Email address
+- City
+- State
+- Preferred countries
+- Preferred job categories
+- Education
+- Experience
+- Skills
+- Resume
+
+Features:
+- Edit profile
+- Change password
+- Update preferences
+- Manage notifications
+- Privacy settings
+- Download personal data, where supported
+- Delete account
+- Logout
+- Help and support
+- Terms and conditions
+- Privacy policy
+- About RIZOO JOB
+
+Users must be able to manage their own profiles without accessing another user's information.
+
+# 15. ADMIN PANEL — SEPARATE SECURE LOGIN
+
+Build a separate, professional, web-based Admin Panel for RIZOO JOB.
+
+The admin panel must be separate from the normal job seeker interface.
+
+Admin login must require administrator credentials and server-side authorization.
+
+The admin password must be independent of ordinary user passwords.
+
+Do not hardcode the admin password in the mobile application, frontend source code, or public database records.
+
+Create the first administrator through a secure deployment or backend setup process.
+
+Admin panel URL should be configurable after deployment.
+
+Admin panel features must be available only to authorized administrators.
+
+ADMIN LOGIN PAGE:
+- RIZOO JOB Admin logo
+- Administrator email or username
+- Password
+- Secure Login button
+- Forgot Password, if supported by a secure recovery process
+- Logout
+- Session expiration
+- Login rate limiting
+- Unauthorized access protection
+
+Never allow an ordinary user to become an administrator merely by registering an account or changing a profile field.
+
+# 16. ADMIN DASHBOARD
+
+After successful login, show a professional dashboard.
+
+Dashboard statistics:
+- Total registered users
+- Active users
+- Total vacancies
+- Published vacancies
+- Draft vacancies
+- Expired vacancies
+- Total applications
+- Pending applications
+- Shortlisted applications
+- Interview scheduled
+- Selected candidates
+- Rejected applications
+
+Charts:
+- Applications by month
+- Vacancies by country
+- Vacancies by category
+- Application status distribution
+- New user registrations
+
+Recent activity:
+- Recently registered users
+- Latest applications
+- Recently published jobs
+- Upcoming interviews
+- Vacancies approaching their deadline
+
+All dashboard statistics must be calculated from real database records.
+
+Add date filters and searchable tables.
+
+# 17. ADMIN VACANCY MANAGEMENT
+
+Create a complete Create, Read, Update, and Delete vacancy management module.
+
+Admin can:
+- Create a vacancy
+- Upload vacancy poster
+- Upload multiple job photographs
+- Preview the vacancy before publishing
+- Edit job information
+- Save as draft
+- Publish a vacancy
+- Unpublish a vacancy
+- Mark as urgent
+- Mark as featured
+- Close applications
+- Extend the deadline
+- Duplicate a vacancy
+- Archive a vacancy
+- Delete a vacancy with confirmation
+
+Vacancy creation fields:
+
+1. Job title
+2. Country
+3. City
+4. Employer name
+5. Employer details
+6. Number of vacancies
+7. Salary amount
+8. Salary currency
+9. Salary payment period
+10. Overtime information
+11. Food facility
+12. Accommodation
+13. Transportation
+14. Medical insurance
+15. Duty hours
+16. Weekly holidays
+17. Job category
+18. Job type
+19. Experience
+20. Education
+21. Language requirements
+22. Contract duration
+23. Age requirements, when appropriate
+24. Passport requirements
+25. Selection method
+26. Required documents
+27. Job description
+28. Application opening date
+29. Application deadline
+30. Vacancy poster
+31. Additional photographs
+32. Contact details
+33. Application instructions
+34. Verification evidence and status
+35. Publication status
+
+Add validation to prevent incomplete or invalid vacancy records.
+
+Display a warning before publishing a vacancy that is missing important details.
+
+# 18. ADMIN APPLICATION MANAGEMENT
+
+Create a complete application management dashboard.
+
+Administrator can:
+- View all applications
+- Search by candidate name
+- Search by mobile number
+- Search by application ID
+- Filter by vacancy
+- Filter by country
+- Filter by application date
+- Filter by status
+- Open applicant details
+- Review resumes
+- Access authorized documents
+- Update application status
+- Add internal notes
+- Schedule interviews
+- Enter interview date and time
+- Add interview instructions
+- Send status notifications
+- Export application reports when authorized
+
+Only authorized administrators should access applicant documents.
+
+Never expose uploaded resumes, passports, or other personal documents through public URLs.
+
+Log important administrator actions, particularly document access, application status changes, and data exports.
+
+# 19. USER MANAGEMENT
+
+Admin can:
+- View registered users
+- Search users
+- Filter users
+- View user profiles according to assigned permissions
+- View application history
+- Suspend accounts when justified
+- Restore suspended accounts
+- Respond to support requests
+- Handle deletion requests
+
+Do not expose user passwords to administrators.
+
+Implement role-based permissions if the system supports multiple administrators.
+
+Suggested roles:
+- Super Admin
+- Vacancy Manager
+- Application Manager
+- Support Staff
+
+Only Super Admin can create administrators, assign roles, and change sensitive security settings.
+
+# 20. ADMIN COUNTRY AND CATEGORY MANAGEMENT
+
+Create management screens for countries and job categories.
+
+Administrator can:
+- Add a country
+- Edit a country
+- Upload or select a country flag
+- Enable or disable a country
+- Add job categories
+- Rename categories
+- Reorder categories
+- Enable or disable categories
+
+Do not delete a country or category if doing so would accidentally destroy important application history.
+
+Use archive or deactivate options where appropriate.
+
+# 21. HOMEPAGE BANNER MANAGEMENT
+
+Allow administrators to upload promotional banners.
+
+Banner options:
+- Latest vacancies
+- Urgent recruitment
+- Gulf job opportunities
+- Europe job opportunities
+- Featured vacancies
+- Recruitment announcements
+
+Admin controls:
+- Upload banner
+- Add title
+- Add subtitle
+- Set target vacancy or destination
+- Set start date
+- Set expiry date
+- Enable or disable banner
+- Reorder banners
+
+The app must display active banners from the database.
+
+# 22. RECRUITMENT AGENCY CONTACT
+
+Add a professional contact section for Rizoo Travel Agency.
+
+Display:
+- Rizoo Travel Agency
+- Contact number: 7007303250
+- Office address: Dharampur Chauraha Se Pachrukhiya Bazar, Maharajganj, Uttar Pradesh, India
+
+Contact buttons:
+- Call Now
+- WhatsApp
+- Email, if configured
+- Open Map, if a verified map location is configured
+
+WhatsApp contact should use the configured business phone number in international format.
+
+The administrator must be able to update contact details from settings.
+
+Do not invent a business email address or map coordinates.
+
+# 23. RECRUITMENT ANNOUNCEMENTS
+
+Create a dedicated announcements module.
+
+Admin can publish:
+- Important vacancy updates
+- Interview announcements
+- Recruitment camp details
+- Document preparation instructions
+- Application deadline reminders
+- Recruitment policy updates
+
+Each announcement supports:
+- Title
+- Description
+- Optional image
+- Publication date
+- Expiry date
+- Active or inactive status
+
+Display announcements on the home screen and in the notification section where appropriate.
+
+# 24. JOB ALERT SUBSCRIPTION
+
+Allow users to subscribe to job alerts.
+
+Users can select:
+- Countries
+- Job categories
+- Salary preferences
+- Job type
+- Notification frequency
+
+When matching vacancies are published, send alerts using the configured notification system.
+
+Respect notification preferences and allow users to unsubscribe.
+
+Avoid sending repetitive notifications for the same vacancy.
+
+# 25. DATABASE AND BACKEND ARCHITECTURE
+
+Use a real, secure backend.
+
+Preferred implementation:
+- Firebase Authentication for user authentication
+- Cloud Firestore for structured application data
+- Firebase Storage for vacancy posters and profile photographs
+- Firebase Cloud Messaging for push notifications
+- Secure backend functions for privileged actions
+- A web-based administrator dashboard
+
+Equivalent technologies may be used if they provide the same security and functionality.
+
+Create these collections or equivalent database tables:
+
+1. users
+2. jobs
+3. applications
+4. savedJobs
+5. countries
+6. jobCategories
+7. notifications
+8. announcements
+9. banners
+10. adminUsers
+11. adminRoles
+12. supportTickets
+13. auditLogs
+14. appSettings
+
+Suggested job record:
+
+jobId
+title
+countryId
+city
+employerName
+categoryId
+vacancyCount
+salaryAmount
+salaryCurrency
+salaryPeriod
+overtimeDetails
+foodFacility
+accommodation
+transportation
+medicalInsurance
+dutyHours
+weeklyHoliday
+contractDuration
+experienceRequirements
+educationRequirements
+languageRequirements
+selectionMethod
+requiredDocuments
+description
+posterImageUrl
+additionalImageUrls
+verificationStatus
+publicationStatus
+featured
+urgent
+createdAt
+updatedAt
+applicationDeadline
+createdBy
+
+Suggested application record:
+
+applicationId
+jobId
+userId
+applicantName
+contactInformation
+resumeReference
+profilePhotoReference
+applicationStatus
+submittedAt
+updatedAt
+interviewDetails
+publicRemarks
+internalNotes
+consentRecord
+
+Use server timestamps where possible.
+
+Store large files in protected object storage and keep secure file references in database records.
+
+Do not store uploaded documents as unrestricted public links.
+
+# 26. SECURITY AND PRIVACY
+
+Implement security from the beginning.
+
+Requirements:
+- Authentication and authorization
+- Server-side admin role checks
+- Database access rules
+- Protected file storage
+- Secure session handling
+- Input validation
+- File type and file size validation
+- Rate limiting for sensitive endpoints
+- Secure password reset
+- Audit logs for administrative activity
+- Protection against unauthorized data modification
+- Appropriate error handling
+- Account deletion workflow
+- Privacy policy
+- Data retention policy
+
+Users can read published vacancies.
+
+Users can read and update only their own permitted profile fields.
+
+Users can create applications for themselves and view only their own applications.
+
+Administrators can access data only according to their assigned roles.
+
+All administrative operations must be authorized by the backend.
+
+Never put secret API keys, service account credentials, admin passwords, or privileged database credentials in public client-side code.
+
+Provide clear privacy disclosures for the collection and use of personal information.
+
+# 27. VACANCY VERIFICATION AND TRANSPARENCY
+
+Include an administrative vacancy review workflow.
+
+Verification statuses:
+- Pending Review
+- Reviewed
+- Verified
+- Rejected
+- Needs More Information
+
+Only authorized administrators can update verification status.
+
+Do not automatically label a company, recruiter, visa, or job as verified without appropriate supporting evidence.
+
+Display a clear disclaimer that job information should be checked before making employment or travel decisions.
+
+Do not guarantee employment, visa approval, or a specific salary unless the relevant terms have been properly confirmed.
+
+Clearly display any recruitment fees or other material conditions only when they are lawful and properly disclosed.
+
+# 28. CUSTOMER SUPPORT
+
+Create a support module for job seekers.
+
+Features:
+- Frequently Asked Questions
+- Contact support
+- Report a vacancy
+- Report suspicious recruitment
+- Application-related help
+- Privacy-related requests
+
+Support form:
+- User ID
+- Related vacancy, if applicable
+- Issue category
+- Description
+- Optional attachment
+
+Create a support dashboard for administrators.
+
+Allow support staff to review, assign, respond to, and close tickets.
+
+Do not allow users to upload executable files or unrestricted file types.
+
+# 29. APP NAVIGATION
+
+Create a bottom navigation bar with five sections:
+
+1. Home
+2. Search Jobs
+3. Saved Jobs
+4. My Applications
+5. Profile
+
+Use clear icons and labels.
+
+The admin panel must use its own navigation menu:
+
+- Dashboard
+- Manage Vacancies
+- Applications
+- Users
+- Countries
+- Categories
+- Banners
+- Announcements
+- Notifications
+- Support Tickets
+- Reports
+- Admin Users
+- Audit Logs
+- Settings
+- Logout
+
+Hide menu items when the logged-in administrator does not have the required permissions.
+
+# 30. PROFESSIONAL UI AND USER EXPERIENCE
+
+The application must look like a premium, modern job-search app.
+
+Design requirements:
+- Mobile-first responsive layout
+- Consistent spacing
+- Professional font hierarchy
+- Country flags
+- High-quality vacancy posters
+- Rounded cards
+- Subtle animations
+- Smooth transitions
+- Skeleton loading states
+- Pull-to-refresh, if supported
+- Empty states
+- Error states
+- Success messages
+- Offline and network error handling
+- Accessible color contrast
+- Large touch targets
+- Android back-button support
+- Pagination or infinite scrolling
+- Image caching, if supported
+
+Avoid overcrowded screens, excessive animations, tiny text, and unnecessary pop-ups.
+
+Optimize the app for affordable Android smartphones and slower internet connections.
+
+Support portrait orientation and multiple screen sizes.
+
+# 31. REPORTS AND ANALYTICS
+
+Create an administrator reports section.
+
+Reports:
+- Vacancies by country
+- Vacancies by category
+- Applications by vacancy
+- Applications by month
+- Application status report
+- User registration report
+- Expired vacancy report
+- Upcoming interview report
+
+Allow date filtering.
+
+Support CSV or spreadsheet export when available and authorized.
+
+Exclude passwords, private credentials, and unnecessary sensitive documents from reports.
+
+Show clear empty states when no records exist.
+
+# 32. ADMIN SETTINGS
+
+Provide a settings module for:
+
+- App name
+- App logo
+- Contact number
+- Office address
+- Support email
+- WhatsApp contact
+- Privacy policy
+- Terms and conditions
+- Notification settings
+- Default country
+- Default currency
+- Application settings
+- Vacancy expiry rules
+- Maintenance mode
+- Admin account management
+
+Changes to settings should be saved to the backend and reflected in the app without requiring a new build wherever technically possible.
+
+Sensitive settings must require suitable administrator permissions.
+
+# 33. REQUIRED SCREENS
+
+Build all of the following screens:
+
+USER APP:
+1. Splash Screen
+2. Onboarding
+3. Login
+4. Registration
+5. OTP Verification, if configured
+6. Forgot Password
+7. Home
+8. Search Jobs
+9. Search Results
+10. Country Jobs
+11. Category Jobs
+12. Job Details
+13. Apply for Job
+14. Application Confirmation
+15. My Applications
+16. Application Details
+17. Saved Jobs
+18. Notifications
+19. User Profile
+20. Edit Profile
+21. Resume Management
+22. Job Preferences
+23. Contact Us
+24. Help and Support
+25. Report Vacancy
+26. Privacy Policy
+27. Terms and Conditions
+28. About Us
+29. Settings
+30. Logout Confirmation
+
+ADMIN PANEL:
+1. Admin Login
+2. Admin Dashboard
+3. Vacancy List
+4. Create Vacancy
+5. Edit Vacancy
+6. Vacancy Image Upload
+7. Vacancy Preview
+8. Application List
+9. Applicant Details
+10. Interview Management
+11. User Management
+12. Country Management
+13. Category Management
+14. Banner Management
+15. Announcement Management
+16. Notification Management
+17. Support Tickets
+18. Reports and Analytics
+19. Admin User Management
+20. Role and Permission Management
+21. Audit Logs
+22. App Settings
+23. Admin Profile
+24. Secure Logout
+
+# 34. TESTING AND QUALITY ASSURANCE
+
+Before declaring the application complete, test the following:
+
+- User registration
+- User login
+- Logout
+- Password reset
+- Vacancy creation
+- Vacancy image upload
+- Vacancy editing
+- Vacancy publication
+- Vacancy search
+- All filters
+- Job details
+- Application submission
+- Duplicate application prevention
+- Application status updates
+- Saved jobs
+- Push notifications
+- Profile editing
+- Admin authentication
+- Unauthorized admin access prevention
+- Role-based permissions
+- Database security rules
+- Protected document uploads
+- Account deletion
+- Network failure handling
+- Expired vacancies
+- Android navigation
+- Responsive layouts
+
+Fix errors discovered during testing.
+
+Do not mark a feature as complete unless it has actually been implemented and tested.
+
+# 35. DEPLOYMENT REQUIREMENTS
+
+Prepare the application for deployment.
+
+Deliverables:
+- Android application project
+- Complete user-facing interface
+- Secure backend configuration
+- Database schema
+- Database access rules
+- Secure admin panel
+- Vacancy image upload integration
+- Application management integration
+- Notification integration
+- Environment configuration instructions
+- Setup documentation
+- Testing checklist
+- Deployment instructions
+- Production build instructions
+- App icon and branding assets
+
+Clearly identify any feature that requires a third-party service, API key, domain, billing configuration, or manual setup.
+
+Do not invent working credentials or pretend that external integrations are configured when they are not.
+
+# 36. FINAL BUILD INSTRUCTIONS
+
+Build RIZOO JOB as a complete professional international job vacancy application.
+
+Priority order:
+
+1. Working vacancy system with photographs.
+2. Full job details and search filters.
+3. User registration and authentication.
+4. Online job application system.
+5. My Applications and status tracking.
+6. Separate secure administrator login.
+7. Full vacancy management dashboard.
+8. Application and candidate management.
+9. Push notifications.
+10. Country and category management.
+11. Premium user interface.
+12. Privacy, security, testing, and deployment.
+
+Use reusable components, a clean architecture, consistent branding, and maintainable code.
+
+Make every button functional. Connect forms to the appropriate backend operations. Display useful validation messages and loading indicators.
+
+If a feature cannot be implemented directly by the selected platform, explain the limitation and implement the closest supported alternative without pretending that the feature works.
+
+The final result should be a professional, reliable, secure, scalable, and mobile-friendly application called RIZOO JOB, suitable for real job seekers and recruitment administrators.
